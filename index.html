@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finsweet: Webflow Development, Design, and Product Agency</title>
+    <link rel="shortcut icon" href="public/images/icon/icon.png">
+    <link rel="stylesheet" href="src/CSS/main.css" />
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css" />
+  </head>
+  <body class="bg-[#E5E5E5]">
+    <!-- #region project -->
+    <div class="(Project) max-w-[1600px] mx-auto">
+      <!-- #region shadow -->
+      <div
+        class="fixed w-full h-screen left-0 top-0 tablet:none mobile:hidden bg-[#2b2b2bbb] z-10"
+        id="mapsec2"
+      ></div>
+      <!-- #endregion -->
+
+      <!-- #region navbar -->
+      <nav
+        class="(navbar) w-full h-[92px] bg-[#1C1E53] flex justify-between sticky top-0 z-50"
+      >
+        <div
+          class="(nav-left) w-fit h-full pt-[33px] mobile:pl-[20px] desktop:pl-[160px]"
+        >
+          <img
+            src="public/images/navbar/logo.svg"
+            class="w-[122px] h-[24.71px]"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="(nav-right) font-[reg] font-[500] text-[16px] leading-[28px] flex justify-center items-center"
+        >
+          <ul
+            class="text-[#BBBBCB] tablet:w-[398px] tablet:-[32.04px] justify-between items-start capitalize tablet:flexed mobile:hidden tablet:static mobile:absolute mobile:right-[10px] mobile:top-[100px] mobile:w-[200px] mobile:bg-[#1C1E53] mobile:border-solid mobile:border-[2px] mobile:border-[#3439bb] mobile:pl-[10px] mobile:rounded-[8px] tablet:border-none z-[60]"
+            id="mapsec3"
+          >
+            <li class="hover:text-[#fff]"><a href="#">home</a></li>
+            <li class="hover:text-[#fff]"><a href="#">about us</a></li>
+            <li class="hover:text-[#fff]"><a href="#">features</a></li>
+            <li class="hover:text-[#fff]"><a href="#">pricing</a></li>
+            <li class="uppercase hover:text-[#fff]"><a href="#">faq</a></li>
+            <li class="hover:text-[#fff]"><a href="#">blog</a></li>
+          </ul>
+          <button
+            class="tablet:w-[185px] mobile:w-[100px] h-[60px] mt-[16px] mobile:mr-[20px] desktop:mr-[160px] ml-[48px] border-solid border-[2px] border-[#F4F6FC33] rounded-[50px] text-[#fff] capitalize tablet:block mobile:hidden"
+          >
+            contact us
+          </button>
+          <button
+            class="tablet:w-[185px] mobile:w-[100px] h-[60px] mt-[16px] mobile:mr-[20px] desktop:mr-[160px] ml-[48px] border-solid border-[2px] border-[#F4F6FC33] rounded-[50px] text-[#fff] capitalize tablet:hidden mobile:block z-[60]"
+            onclick="showhide()"
+          >
+            Menu
+          </button>
+        </div>
+      </nav>
+      <!-- #endregion -->
+
+      <!-- #region header -->
+      <header
+        class="(header) w-full desktop:h-[668px] mobile:h-fit bg-[#1C1E53]"
+      >
+        <div
+          class="w-full flex desktop:flex-row-reverse mobile:flex-col flex-nowrap justify-center tablet:gap-[60px] mobile:gap-[20px] items-center pt-[126px]"
+        >
+          <div class="(illustration) tablet:w-[630px] tablet:h-[361.12px]">
+            <img
+              class="px-[10px]"
+              src="public/images/header/illustrator.svg"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="tablet:w-[582px] mobile:mx-[100px] tablet:h-[414px] mobile:mb-[50px] desktop:mb-0"
+          >
+            <h2
+              class="font-[reg] font-[600] tablet:text-[57px] mobile:text-[40px] leading-[74px] text-[#fff] mb-[24px] line-clamp-3"
+            >
+              Building stellar websites for early startups
+            </h2>
+            <p
+              class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#FFFFFF]"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt.
+            </p>
+            <button
+              class="w-[230px] h-[64px] bg-[#FCD980] hover:bg-[#FDE4A6] transition-all text-[#000] rounded-[41px] font-[reg] font-[500] text-[16px] mt-[48px]"
+            >
+              View our work
+            </button>
+            <a
+              href="#"
+              class="w-[138px] h-[28px] inline-block font-[reg] font-[500] text-[16px] leading-[28px] text-white ml-[40px] tablet:mt-0 mobile:mt-[10px]"
+            >
+              <h2 class="inline-block">View Pricing</h2>
+              <img
+                class="w-[24px] h-fit inline-block"
+                src="public/images/header/arrow-1.svg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </header>
+      <!-- #endregion -->
+
+      <!-- #region main -->
+      <main>
+        <!-- #region sec-1 -->
+        <section
+          class="(sec-1) w-full desktop:h-[661px] h-auto flex tablet:flex-row flex-wrap mobile:justify-center tablet:justify-normal tablet:gap-x-[142px] bg-[#F4F6FC] tablet:px-0 mobile:px-[20px]"
+        >
+          <div class="tablet:p-0 mobile:p-[10px]">
+            <div
+              class="(sec-1-left) tablet:w-[405px] tablet:h-[184px] mt-[128px] tablet:ml-[165px] flex flex-col justify-between"
+            >
+              <h2
+                class="font-[sem] font-[600] text-[48px] leading-[64px] text-[#282938]"
+              >
+                How we work
+              </h2>
+              <p
+                class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938] mobile:max-w-[500px]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+              <a
+                href="#"
+                class="mt-[16px] w-[244px] h-[32px] font-[reg] font-[500] text-[18px] leading-[32px] text-[#2405F2]"
+              >
+                <h3 class="inline-block">Get in touch with us</h3>
+                <img
+                  class="w-[24px] inline-block"
+                  src="public/images/sec-1/arrow-2.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="(sec-1-right) tablet:w-[656px] tablet:h-[405px] mobile:w-[320px] mobile:h-auto mt-[128px] gap-y-[48px] grid tablet:grid-cols-2 mobile:grid-cols-1 tablet:mx-auto mb-[50px]"
+          >
+            <div class="(part-1) tablet:w-[328px] mobile:w-full h-[178px]">
+              <img src="public/images/sec-1/1.svg" alt="" />
+              <h2
+                class="mt-[16px] mb-[8px] font-[reg] font-[500] text-[32px] leading-[48px] text-[#282938]"
+              >
+                Strategy
+              </h2>
+              <p
+                class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938] tablet:w-[303px]"
+              >
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam .
+              </p>
+            </div>
+            <div class="(part-2) tablet:w-[328px] mobile:w-full h-[178px]">
+              <img src="public/images/sec-1/2.svg" alt="" />
+              <h2
+                class="mt-[16px] mb-[8px] font-[reg] font-[500] text-[32px] leading-[48px] text-[#282938]"
+              >
+                Wireframing
+              </h2>
+              <p
+                class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938] tablet:w-[303px]"
+              >
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam .
+              </p>
+            </div>
+            <div class="(part-3) tablet:w-[328px] mobile:w-full h-[178px]">
+              <img src="public/images/sec-1/3.svg" alt="" />
+              <h2
+                class="mt-[16px] mb-[8px] font-[reg] font-[500] text-[32px] leading-[48px] text-[#282938]"
+              >
+                Design
+              </h2>
+              <p
+                class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938] tablet:w-[303px]"
+              >
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam .
+              </p>
+            </div>
+            <div class="(part-4) tablet:w-[328px] mobile:w-full h-[178px]">
+              <img src="public/images/sec-1/4.svg" alt="" />
+              <h2
+                class="mt-[16px] mb-[8px] font-[reg] font-[500] text-[32px] leading-[48px] text-[#282938]"
+              >
+                Development
+              </h2>
+              <p
+                class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938] tablet:w-[303px]"
+              >
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam .
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- #endregion -->
+        <!-- #region sec-2 -->
+        <section
+          class="(sec-2) w-full desktop:h-[984px] mobile:h-auto flex justify-center items-center bg-white mobile:pb-[60px] desktop:pb-0"
+        >
+          <div class="desktop:w-[1280px] desktop:h-[728px] w-full h-auto">
+            <div
+              class="(top-box) gap-[10px] w-full desktop:mt-0 px-[20px] mt-[60px] flex flex-row flex-wrap justify-between items-center"
+            >
+              <h2
+                class="font-[reg] font-[600] text-[48px] leading-[64px] text-[#282938]"
+              >
+                View our projects
+              </h2>
+              <a
+                href="#"
+                class="inline-block font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938]"
+              >
+                View More
+                <img
+                  class="w-[24px] inline-block"
+                  src="public/images/sec-2/arrow-3.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div
+              class="(bottom-box) desktop:w-[1280px] w-full desktop:h-[600px] mt-[64px] flex desktop:flex-row gap-[32px] items-center mobile:justify-center mobile:flex-col mobile:px-[20px] tablet:px-0"
+            >
+              <div
+                class="(bottom-left) desktop:w-[843px] tablet:max-w-[843px] desktop:h-[600px] relative desktop:px-0 z-0 group"
+              >
+                <img
+                  class="w-full h-full"
+                  src="public/images/sec-2/pic-1.png"
+                  alt=""
+                />
+                <div
+                  class="w-[46.975%] h-full z-[1] absolute left-0 top-0 bg-gradient-to-b from-[#1C1E536B] from-[42%] to-[#1C1E53] to-100% tablet:block mobile:flex justify-end tablet:pb-0 mobile:pb-[20px] items-center flex-col group-hover:bg-[#1c1e53b4] transition-all duration-300"
+                >
+                  <h2
+                    class="tablet:w-[73.99%] desktop:line-clamp-none line-clamp-2 font-[reg] font-[600] mobile:text-[20px] tablet:text-[24px] leading-[36px] text-white mx-auto mobile:mt-0 tablet:mt-[300px] desktop:mt-[312px] tablet:px-0 mobile:px-[15px]"
+                  >
+                    Workhub office Webflow<span class="block"
+                      >Webflow Design
+                    </span>
+                  </h2>
+                  <p
+                    class="tablet:w-[73.99%] line-clamp-2 font-[reg] font-[400] mobile:text-[12px] tablet:text-[16px] leading-[28px] text-white mx-auto tablet:mt-[16px] mobile:px-[20px] tablet:px-0 mobile:max-w-[293px] mobile:mt-[10px]"
+                  >
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam
+                  </p>
+                  <div class="tablet:w-[73.99%] mt-[40px] mx-auto">
+                    <a
+                      href="#"
+                      class="tablet:w-[150px] tablet:h-[28px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#FCD980]"
+                    >
+                      View project
+                      <img
+                        class="w-[24px] inline-block"
+                        src="public/images/sec-2/arrow-4.svg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="(bottom-right) desktop:h-[600px] tablet:w-fit desktop:w-fit w-full gap-[20px] flex desktop:flex-col tablet:flex-row justify-between"
+              >
+                <div
+                  class="(br1) tablet:max-w-[411.5px] tablet:max-h-[310.94px] desktop:w-[405px] desktop:h-[284px] relative"
+                >
+                  <img
+                    class="w-full h-full bg-cover"
+                    src="public/images/sec-2/pic-2.png"
+                    alt=""
+                  />
+                  <div
+                    class="w-full h-full z-[1] absolute left-0 top-0 bg-gradient-to-b from-[#1C1E536B] from-[42%] to-[#1C1E53] to-100% tablet:block mobile:flex justify-end tablet:pb-0 mobile:pb-[20px] items-center flex-col hover:bg-[#1c1e53b4] transition-all duration-300"
+                  >
+                    <h2
+                      class="tablet:line-clamp-2 mobile:line-clamp-1 tablet:w-[293px] tablet:h-[72px] font-[reg] font-[600] mobile:text-[20px] tablet:text-[24px] leading-[36px] text-white mx-auto tablet:mt-[129px] mobile:px-[15px] tablet:px-0"
+                    >
+                      Unisaas Website
+                      <span class="tablet:block mobile:inline">Design</span>
+                    </h2>
+                    <div class="tablet:w-[293px] mt-[10px] mx-auto">
+                      <a
+                        href="#"
+                        class="tablet:w-[150px] tablet:h-[28px] font-[reg] font-[500] tablet:text-[16px] mobile:text-[15px] leading-[28px] text-[#FCD980]"
+                      >
+                        View portfolio
+                        <img
+                          class="w-[24px] inline-block"
+                          src="public/images/sec-2/arrow-4.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="(br2) tablet:max-w-[411.5px] tablet:max-h-[310.94px] desktop:w-[405px] desktop:h-[284px]"
+                >
+                  <img
+                    class="w-full h-full bg-cover"
+                    src="public/images/sec-2/pic-3.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- #endregion -->
+        <!-- #region sec-3 -->
+        <section
+          class="(sec-3) w-full bg-[#F4F6FC] flex flex-col justify-center items-center"
+        >
+          <div
+            class="(s31) font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] mt-[128px]"
+          >
+            Features
+          </div>
+
+          <h2
+            class="(s32) max-w-[630px] text-center font-[reg] font-[600] text-[48px] leading-[64px] text-[#282938] mt-[12px]"
+          >
+            Design that solves problems, one product at a time
+          </h2>
+
+          <div
+            class="(sec33-box) mt-[47px] mb-[128px] grid desktop:grid-cols-3 tablet:grid-cols-2 mobile:grid-cols-1 gap-y-[24px] gap-x-[32px]"
+          >
+            <div
+              class="(b1) tablet:w-[405px] mobile:w-[300px] h-[316px] bg-white"
+            >
+              <img
+                class="pl-[48px] pt-[58px]"
+                src="public/images/sec-3/pic-1.svg"
+                alt=""
+              />
+              <h2
+                class="(s32) line-clamp-1 tablet:w-[314.75px] mobile:px-[10px] tablet:px-0 font-[reg] font-[400] text-[24px] leading-[36px] text-[#282938] pt-[22.08px] text-start mx-auto"
+              >
+                Uses Client First
+              </h2>
+              <p
+                class="(s32) tablet:w-[324.08px] mobile:px-[10px] tablet:px-0 font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938] opacity-[70%] pt-[12px] text-start mx-auto"
+              >
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </p>
+            </div>
+            <div
+              class="(b2) tablet:w-[405px] mobile:w-[300px] h-[316px] bg-white"
+            >
+              <img
+                class="pl-[48px] pt-[58px]"
+                src="public/images/sec-3/pic-2.svg"
+                alt=""
+              />
+              <h2
+                class="(s32) line-clamp-1 tablet:w-[314.75px] mobile:px-[10px] tablet:px-0 font-[reg] font-[400] text-[24px] leading-[36px] text-[#282938] pt-[22.08px] text-start mx-auto"
+              >
+                Two Free Revision Round
+              </h2>
+              <p
+                class="(s32) tablet:w-[324.08px] mobile:px-[10px] tablet:px-0 font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938] opacity-[70%] pt-[12px] text-start mx-auto"
+              >
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </p>
+            </div>
+            <div
+              class="(b3) tablet:w-[405px] mobile:w-[300px] h-[316px] bg-white"
+            >
+              <img
+                class="pl-[48px] pt-[58px]"
+                src="public/images/sec-3/pic-3.svg"
+                alt=""
+              />
+              <h2
+                class="(s32) line-clamp-1 tablet:w-[314.75px] mobile:px-[10px] tablet:px-0 font-[reg] font-[400] text-[24px] leading-[36px] text-[#282938] pt-[22.08px] text-start mx-auto"
+              >
+                Template Customization
+              </h2>
+              <p
+                class="(s32) tablet:w-[324.08px] mobile:px-[10px] tablet:px-0 font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938] opacity-[70%] pt-[12px] text-start mx-auto"
+              >
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </p>
+            </div>
+            <div
+              class="(b4) tablet:w-[405px] mobile:w-[300px] h-[316px] bg-white"
+            >
+              <img
+                class="pl-[48px] pt-[58px]"
+                src="public/images/sec-3/pic-4.svg"
+                alt=""
+              />
+              <h2
+                class="(s32) line-clamp-1 tablet:w-[314.75px] mobile:px-[10px] tablet:px-0 font-[reg] font-[400] text-[24px] leading-[36px] text-[#282938] pt-[22.08px] text-start mx-auto"
+              >
+                24/7 Support
+              </h2>
+              <p
+                class="(s32) tablet:w-[324.08px] mobile:px-[10px] tablet:px-0 font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938] opacity-[70%] pt-[12px] text-start mx-auto"
+              >
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </p>
+            </div>
+            <div
+              class="(b5) tablet:w-[405px] mobile:w-[300px] h-[316px] bg-white"
+            >
+              <img
+                class="pl-[48px] pt-[58px]"
+                src="public/images/sec-3/pic-5.svg"
+                alt=""
+              />
+              <h2
+                class="(s32) line-clamp-1 tablet:w-[314.75px] mobile:px-[10px] tablet:px-0 font-[reg] font-[400] text-[24px] leading-[36px] text-[#282938] pt-[22.08px] text-start mx-auto"
+              >
+                Quick Delivery
+              </h2>
+              <p
+                class="(s32) tablet:w-[324.08px] mobile:px-[10px] tablet:px-0 font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938] opacity-[70%] pt-[12px] text-start mx-auto"
+              >
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </p>
+            </div>
+            <div
+              class="(b6) tablet:w-[405px] mobile:w-[300px] h-[316px] bg-white"
+            >
+              <img
+                class="pl-[48px] pt-[58px]"
+                src="public/images/sec-3/pic-6.svg"
+                alt=""
+              />
+              <h2
+                class="(s32) line-clamp-1 tablet:w-[314.75px] mobile:px-[10px] tablet:px-0 font-[reg] font-[400] text-[24px] leading-[36px] text-[#282938] pt-[22.08px] text-start mx-auto"
+              >
+                Hands-on approach
+              </h2>
+              <p
+                class="(s32) tablet:w-[324.08px] mobile:px-[10px] tablet:px-0 font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938] opacity-[70%] pt-[12px] text-start mx-auto"
+              >
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- #endregion -->
+        <!-- #region sec-4 -->
+        <section
+          class="(sec-4) desktop:h-[506px] desktop:p-0 mobile:py-[128px] bg-[#f4f6fc80] flex desktop:flex-row-reverse flex-col-reverse items-center justify-center gap-x-[110px] gap-y-[70px] px-[10px]"
+        >
+          <!-- Swiper -->
+          <div class="mobile:w-[300px] tablet:w-[843.2px]">
+            <div class="swiper mySwiper w-full h-[250px] overflow-hidden m-00">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide bg-transparent">
+                  <div class="flex justify-between flex-col w-full h-full">
+                    <p
+                      class="w-full h-[144px] line-clamp-3 font-[reg] font-[500] text-[32px] leading-[48px] text-[#282938]"
+                    >
+                      "The best agency we’ve worked with so far. They understand
+                      our product and are able to add new features with a great
+                      focus."
+                    </p>
+                    <div
+                      class="flex justify-start items-center gap-x-[14px] h-[54px]"
+                    >
+                      <img src="public/images/sec-4/Mask Group.png" alt="" />
+                      <div>
+                        <span
+                          class="block font-[reg] font-[400] text-[18px] leading-[32px] text-[#282938]"
+                          >Jenny Wilson</span
+                        >
+                        <span
+                          class="block font-[reg] font-[400] text-[12px] leading-[28px] text-[#282938]"
+                          >Vice President</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide bg-transparent">
+                  <div class="flex justify-between flex-col w-full h-full">
+                    <p
+                      class="w-full h-[144px] line-clamp-3 font-[reg] font-[500] text-[32px] leading-[48px] text-[#282938]"
+                    >
+                      "The best agency we’ve worked with so far. They understand
+                      our product and are able to add new features with a great
+                      focus."
+                    </p>
+                    <div
+                      class="flex justify-start items-center gap-x-[14px] h-[54px]"
+                    >
+                      <img src="public/images/sec-4/Mask Group.png" alt="" />
+                      <div>
+                        <span
+                          class="block font-[reg] font-[400] text-[18px] leading-[32px] text-[#282938]"
+                          >Jenny Wilson</span
+                        >
+                        <span
+                          class="block font-[reg] font-[400] text-[12px] leading-[28px] text-[#282938]"
+                          >Vice President</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide bg-transparent">
+                  <div class="flex justify-between flex-col w-full h-full">
+                    <p
+                      class="w-full h-[144px] line-clamp-3 font-[reg] font-[500] text-[32px] leading-[48px] text-[#282938]"
+                    >
+                      "The best agency we’ve worked with so far. They understand
+                      our product and are able to add new features with a great
+                      focus."
+                    </p>
+                    <div
+                      class="flex justify-start items-center gap-x-[14px] h-[54px]"
+                    >
+                      <img src="public/images/sec-4/Mask Group.png" alt="" />
+                      <div>
+                        <span
+                          class="block font-[reg] font-[400] text-[18px] leading-[32px] text-[#282938]"
+                          >Jenny Wilson</span
+                        >
+                        <span
+                          class="block font-[reg] font-[400] text-[12px] leading-[28px] text-[#282938]"
+                          >Vice President</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Add Navigation -->
+              <div
+                class="swiper-button-next w-48i h-48i bg-[#5239FA] rounded-[50%] after:hidden top-024 right-00"
+              >
+                <div class="arrow w-[13px] h-[22px]">
+                  <svg viewBox="0 0 13 22" fill="none">
+                    <path
+                      d="M1.41412 22L0 18.7805L9.03053 11.0894L0 3.21951L1.41412 0L13 10.374V12.1626L1.41412 22Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="swiper-button-prev w-48i h-48i bg-[#5239FA] rounded-[50%] after:hidden top-024 left-autoi right-01"
+              >
+                <div class="arrow w-[13px] h-[22px] scale-x-[-1]">
+                  <svg viewBox="0 0 13 22" fill="none">
+                    <path
+                      d="M1.41412 22L0 18.7805L9.03053 11.0894L0 3.21951L1.41412 0L13 10.374V12.1626L1.41412 22Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="max-w-[327px] max-h-[184px]">
+            <h3
+              class="font-[reg] font-[600] text-[38px] leading-[56px] text-[#282938]"
+            >
+              What our clients say about us
+            </h3>
+            <p
+              class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938] opacity-[70%]"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
+            </p>
+          </div>
+        </section>
+        <!-- #endregion -->
+        <!-- #region sec-5 -->
+        <section
+          class="(sec-5) w-full py-[128px] bg-white flex justify-center desktop:items-start desktop:flex-row mobile:flex-col gap-y-[70px] gap-x-[109px] tablet:px-0 mobile:px-[10px]"
+        >
+          <div
+            class="tablet:w-[328px] mobile:max-w-[400px] tablet:m-0 mobile:ml-[20px] tablet:h-[160px] flex flex-col justify-between desktop:p-0 tablet:ml-[100px]"
+          >
+            <h3
+              class="font-[reg] font-[600] text-[38px] leading-[56px] text-[#282938]"
+            >
+              Frequently<br />asked questions
+            </h3>
+            <a
+              href="#"
+              class="font-[reg] font-[500] text-[18px] leading-[32px] text-[#2405F2]"
+              >Contact us for more info</a
+            >
+          </div>
+
+          <div
+            class="desktop:w-[846.31px] mobile::w-auto mobile:h-auto desktop:h-[530px] desktop:m-0 mobile:mx-auto"
+          >
+            <div
+              class="(sec-5-part-1) collapse collapse-plus border-solid border-b-2 border-[#ECECF1] rounded-none"
+            >
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div
+                class="collapse-title mobile:text-[20px] tablet:text-[24px] mobile:h-[60px] w-auto tablet:h-auto line-clamp-1 overflow-hidden font-[reg] font-[500] leading-[36px] text-[#282938]"
+              >
+                <span class="font-[400] leading-[36px] text-[#2405F2] pr-[59px]"
+                  >01</span
+                >
+                How much time does it take?
+              </div>
+              <div
+                class="collapse-content tablet:w-[624px] mobile:w-auto mobile:px-[81.77px] tablet:p-0 tablet:mx-auto font-[reg] font-[500] mobile:text-[14px] tablet:text-[18px] leading-[32px] text-[#282938] opacity-[87%]"
+              >
+                <p class="pt-[16px] pb-[48px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div
+              class="(sec-5-part-2) collapse collapse-plus border-solid border-b-2 border-[#ECECF1] rounded-none"
+            >
+              <input type="radio" name="my-accordion-3" />
+              <div
+                class="collapse-title mobile:text-[20px] tablet:text-[24px] mobile:h-[60px] w-auto tablet:h-auto h-[60px] line-clamp-1 overflow-hidden font-[reg] font-[500] leading-[36px] text-[#282938]"
+              >
+                <span
+                  class="w-[24px] h-[36px] font-[400] leading-[36px] text-[#2405F2] pr-[59px]"
+                  >02</span
+                >
+                What is your class naming convention?
+              </div>
+              <div
+                class="collapse-content tablet:w-[624px] mobile:w-auto mobile:px-[81.77px] tablet:p-0 tablet:mx-auto font-[reg] font-[500] mobile:text-[14px] tablet:text-[18px] leading-[32px] text-[#282938] opacity-[87%]"
+              >
+                <p class="pt-[16px] pb-[48px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div
+              class="(sec-5-part-3) collapse collapse-plus border-solid border-b-2 border-[#ECECF1] rounded-none"
+            >
+              <input type="radio" name="my-accordion-3" />
+              <div
+                class="collapse-title mobile:text-[20px] tablet:text-[24px] mobile:h-[60px] w-auto tablet:h-auto h-[60px] line-clamp-1 overflow-hidden font-[reg] font-[500] leading-[36px] text-[#282938]"
+              >
+                <span
+                  class="w-[24px] h-[36px] font-[400] leading-[36px] text-[#2405F2] pr-[59px]"
+                  >03</span
+                >
+                How do you communicate?
+              </div>
+              <div
+                class="collapse-content tablet:w-[624px] mobile:w-auto mobile:px-[81.77px] tablet:p-0 tablet:mx-auto font-[reg] font-[500] mobile:text-[14px] tablet:text-[18px] leading-[32px] text-[#282938] opacity-[87%]"
+              >
+                <p class="pt-[16px] pb-[48px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div
+              class="(sec-5-part-4) collapse collapse-plus border-solid border-b-2 border-[#ECECF1] rounded-none"
+            >
+              <input type="radio" name="my-accordion-3" />
+              <div
+                class="collapse-title mobile:text-[20px] tablet:text-[24px] mobile:h-[60px] w-auto tablet:h-auto h-[60px] line-clamp-1 overflow-hidden font-[reg] font-[500] leading-[36px] text-[#282938]"
+              >
+                <span
+                  class="w-[24px] h-[36px] font-[400] leading-[36px] text-[#2405F2] pr-[59px]"
+                  >04</span
+                >
+                I have a bigger project. Can you handle it?
+              </div>
+              <div
+                class="collapse-content tablet:w-[624px] mobile:w-auto mobile:px-[81.77px] tablet:p-0 tablet:mx-auto font-[reg] font-[500] mobile:text-[14px] tablet:text-[18px] leading-[32px] text-[#282938] opacity-[87%]"
+              >
+                <p class="pt-[16px] pb-[48px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div class="(sec-5-part-5) collapse collapse-plus">
+              <input type="radio" name="my-accordion-3" />
+              <div
+                class="collapse-title mobile:text-[20px] tablet:text-[24px] mobile:h-[60px] w-auto tablet:h-auto h-[60px] line-clamp-1 overflow-hidden font-[reg] font-[500] leading-[36px] text-[#282938]"
+              >
+                <span
+                  class="w-[24px] h-[36px] font-[400] leading-[36px] text-[#2405F2] pr-[59px]"
+                  >05</span
+                >
+                What is your class naming convention?
+              </div>
+              <div
+                class="collapse-content tablet:w-[624px] mobile:w-auto mobile:px-[81.77px] tablet:p-0 tablet:mx-auto font-[reg] font-[500] mobile:text-[14px] tablet:text-[18px] leading-[32px] text-[#282938] opacity-[87%]"
+              >
+                <p class="pt-[16px] pb-[48px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- #endregion -->
+        <!-- #region sec-6 -->
+        <section
+          class="(sec-6) w-full h-[819px] pb-[128px] bg-white mobile:px-[10px] tablet:px-0"
+        >
+          <div
+            class="desktop:w-[1280px] tablet:w-[800px] tablet:max-w-full mobile:max-w-[500px] h-full mx-auto bg-[#1C1E53] flex justify-center tablet:rounded-none mobile:rounded-[8px]"
+          >
+            <div
+              class="(left) mobile:hidden tablet:block tablet:w-[400px] desktop:w-[656px] h-[691px] relative"
+            >
+              <img
+                class="w-full h-full object-cover opacity-[50%]"
+                src="public/images/sec-6/1.jpg"
+                alt=""
+              />
+
+              <div
+                class="desktop:w-[464px] desktop:h-[334px] absolute top-[96px] left-[96px]"
+              >
+                <h3
+                  class="font-[reg] font-[600] text-[54px] leading-[74px] text-white mb-[24px]"
+                >
+                  Building stellar websites for early startups
+                </h3>
+                <p
+                  class="font-[reg] font-[500] text-[16px] leading-[28px] text-white"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                  ut enim.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="(right) desktop:w-[624px] tablet:w-[400px] mobile:w-full h-[691px]"
+            >
+              <h3
+                class="desktop:w-[432px] mobile:w-[300px] font-[reg] font-[400] text-[32px] leading-[48px] text-white mx-auto mb-[16px] mt-[96px]"
+              >
+                Send inquiry
+              </h3>
+              <p
+                class="desktop:w-[432px] mobile:w-[300px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#F4F6FC] mx-auto"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore.
+              </p>
+
+              <form
+                action="index.html"
+                method="get"
+                class="desktop:w-[432px] mobile:w-[300px] flex flex-col justify-center items-center mx-auto gap-y-[16px] mt-[40px]"
+              >
+                <input
+                  id="t1"
+                  class="capitalize pl-[32px] w-full h-[64px] bg-transparent border-[1.5px] border-solid border-[#FFFFFF0D] rounded-[8px] text-[#888AA8] font-[reg] font-[500] text-[16px] leading-[28px]"
+                  type="text"
+                  placeholder="your name"
+                  name="name"
+                  checked
+                />
+                <input
+                  id="t1"
+                  class="capitalize pl-[32px] w-full h-[64px] bg-transparent border-[1.5px] border-solid border-[#FFFFFF0D] rounded-[8px] text-[#888AA8] font-[reg] font-[500] text-[16px] leading-[28px]"
+                  type="email"
+                  name="email"
+                  placeholder="email"
+                />
+                <input
+                  id="t1"
+                  class="capitalize pl-[32px] w-full h-[64px] bg-transparent border-[1.5px] border-solid border-[#FFFFFF0D] rounded-[8px] text-[#888AA8] font-[reg] font-[500] text-[16px] leading-[28px]"
+                  type="url"
+                  name="URL"
+                  placeholder="paste your figma design URL"
+                />
+
+                <input
+                  class="desktop:w-[432px] mobile:w-[300px] h-[64px] bg-[#FCD980] text-[#1B1C2B] rounded-[41px] font-[reg] font-[500] text-[18px] leading-[32px] cursor-pointer mt-[23px] hover:bg-[#FDE4A6] transition-all"
+                  type="submit"
+                  value="Send an Inquiry"
+                />
+              </form>
+
+              <a
+                href="#"
+                class="block w-fit h-[32px] font-[reg] font-[500] text-[16px] leading-[28px] text-white mt-[28px] mx-auto"
+              >
+                <h2 class="inline-block">Get in touch with us</h2>
+                <img
+                  class="w-[24px] h-fit inline-block"
+                  src="public/images/header/arrow-1.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- #endregion -->
+        <!-- #region sec-7 -->
+        <section class="(sec-7) w-full h-fit pb-[128px] bg-white">
+          <div
+            class="desktop:w-[1280px] tablet:w-fit desktop:h-[737px] mx-auto"
+          >
+            <h2
+              class="font-[reg] font-[600] text-[48px] leading-[64px] text-[#282938] mb-[64px]"
+            >
+              Our blog
+            </h2>
+
+            <div
+              class="grid desktop:grid-cols-3 tablet:grid-cols-2 mobile:grid-cols-1 justify-items-center gap-x-[32px] gap-y-[70px] px-[10px]"
+            >
+              <div class="(part-1) max-w-[405px] min-h-[609px]">
+                <img
+                  src="public/images/sec-7/1.png"
+                  class="w-full h-[285px] object-cover"
+                  alt=""
+                />
+                <span
+                  class="font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] opacity-[70%] mt-[40px] block"
+                  >19 Jan 2022</span
+                >
+                <h3
+                  class="font-[reg] font-[400] text-[24px] leading-[36px] text-[#282938] mt-[16px]"
+                >
+                  How one Webflow user grew his single person consultancy from
+                  $0-100K in 14 months
+                </h3>
+                <span
+                  class="font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] opacity-[70%] mt-[16px] block"
+                  >See how pivoting to Webflow changed one person’s sales
+                  strategy and allowed him to attract</span
+                >
+                <a
+                  href="#"
+                  class="block w-fit h-[28px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] mt-[32px]"
+                >
+                  <h2 class="inline-block">Read More</h2>
+                  <img
+                    class="w-[24px] h-fit inline-block"
+                    src="public/images/sec-7/arrow-5.svg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="(part-1) max-w-[405px] min-h-[609px]">
+                <img
+                  src="public/images/sec-7/2.png"
+                  class="w-full h-[285px] object-cover"
+                  alt=""
+                />
+                <span
+                  class="font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] opacity-[70%] mt-[40px] block"
+                  >19 Jan 2022</span
+                >
+                <h3
+                  class="font-[reg] font-[400] text-[24px] leading-[36px] text-[#282938] mt-[16px]"
+                >
+                  How one Webflow user grew his single person consultancy from
+                  $0-100K in 14 months
+                </h3>
+                <span
+                  class="font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] opacity-[70%] mt-[16px] block"
+                  >See how pivoting to Webflow changed one person’s sales
+                  strategy and allowed him to attract</span
+                >
+                <a
+                  href="#"
+                  class="block w-fit h-[28px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] mt-[32px]"
+                >
+                  <h2 class="inline-block">Read More</h2>
+                  <img
+                    class="w-[24px] h-fit inline-block"
+                    src="public/images/sec-7/arrow-5.svg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="(part-1) max-w-[405px] min-h-[609px]">
+                <img
+                  src="public/images/sec-7/3.png"
+                  class="w-full h-[285px] object-cover"
+                  alt=""
+                />
+                <span
+                  class="font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] opacity-[70%] mt-[40px] block"
+                  >19 Jan 2022</span
+                >
+                <h3
+                  class="font-[reg] font-[400] text-[24px] leading-[36px] text-[#282938] mt-[16px]"
+                >
+                  How one Webflow user grew his single person consultancy from
+                  $0-100K in 14 months
+                </h3>
+                <span
+                  class="font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] opacity-[70%] mt-[16px] block"
+                  >See how pivoting to Webflow changed one person’s sales
+                  strategy and allowed him to attract</span
+                >
+                <a
+                  href="#"
+                  class="block w-fit h-[28px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] mt-[32px]"
+                >
+                  <h2 class="inline-block">Read More</h2>
+                  <img
+                    class="w-[24px] h-fit inline-block"
+                    src="public/images/sec-7/arrow-5.svg"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- #endregion -->
+      </main>
+      <!-- #endregion -->
+
+      <!-- #region footer -->
+      <footer class="w-full min-h-[489px] bg-[#1C1E53]">
+        <section class="(ft1) w-full min-h-[397px] pt-[96px] relative">
+          <div
+            class="desktop:w-[1058px] tablet:ml-[160px] flex tablet:justify-between mobile:justify-center gap-y-[70px] gap-x-[20px] flex-wrap flex-row px-[10px]"
+          >
+            <div class="(left)">
+              <img
+                class="w-[160px] h-[32.41px]"
+                src="public/images/footer/logo.svg"
+                alt=""
+              />
+              <p
+                class="max-w-[399px] font-[reg] font-[500] text-[16px] leading-[28px] text-white opacity-[80%] mt-[23.59px]"
+              >
+                We are always open to discuss your project and improve your
+                online presence.
+              </p>
+            </div>
+            <div class="(right) tablet:w-[399px] mobile:max-w-[399px]">
+              <h2
+                class="font-[reg] font-[600] text-[48px] leading-[64px] text-white"
+              >
+                Lets Talk!
+              </h2>
+              <p
+                class="font-[reg] font-[500] text-[16px] leading-[28px] text-white opacity-[80%] mt-[14px]"
+              >
+                We are always open to discuss your project, improve your online
+                presence and help with your UX/UI design challenges.
+              </p>
+              <div class="w-[144px] flex justify-between mt-[28px]">
+                <a href="#">
+                  <img src="public/images/footer/1.svg" alt="" />
+                </a>
+                <a href="#">
+                  <img src="public/images/footer/2.svg" alt="" />
+                </a>
+                <a href="#">
+                  <img src="public/images/footer/3.svg" alt="" />
+                </a>
+                <a href="#">
+                  <img src="public/images/footer/4.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mobile:w-full tablet:w-[517px] h-[95px] relative mobile:left-0 tablet:left-[160px] bottom-0 bg-[#FCD980] tablet:block mobile:flex justify-center items-center desktop:mt-0 mobile:mt-[17px]"
+          >
+            <div class="w-[343px] tablet:ml-[37px] flex justify-between">
+              <div class="(left) w-fit tablet:mt-[17px]">
+                <h2
+                  class="font-[reg] font-[500] text-[18px] leading-[32px] text-[#282938]"
+                >
+                  Email me at
+                </h2>
+                <h4
+                  class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938] opacity-[80%]"
+                >
+                  contact@website.com
+                </h4>
+              </div>
+              <div class="(right) tablet:mt-[17px]">
+                <h2
+                  class="font-[reg] font-[500] text-[18px] leading-[32px] text-[#282938]"
+                >
+                  Call us
+                </h2>
+                <h4
+                  class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938] opacity-[80%]"
+                >
+                  0927 6277 28525
+                </h4>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="(ft2) w-full h-[92px] bg-white flex tablet:justify-between flex-wrap flex-row mobile:justify-center items-center mobile:px-0 tablet:px-[160px] gap-x-[70px]">
+          <h3
+            class="font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] desktop:mx-0 mx-auto"
+          >
+            Copyright 2022, Finsweet.com
+          </h3>
+
+          <ul
+            class="w-[437px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] tablet:flex justify-between mobile:hidden desktop:mx-0 mx-auto"
+          >
+            <li class="hover:text-[#585858]"><a href="#">home</a></li>
+            <li class="hover:text-[#585858]"><a href="#">about us</a></li>
+            <li class="hover:text-[#585858]"><a href="#">features</a></li>
+            <li class="hover:text-[#585858]"><a href="#">pricing</a></li>
+            <li class="uppercase hover:text-[#585858]"><a href="#">faq</a></li>
+            <li class="hover:text-[#585858]"><a href="#">blog</a></li>
+          </ul>
+        </section>
+      </footer>
+      <!-- #endregion -->
+    </div>
+    <!-- #endregion -->
+
+    <!-- Swiper JS -->
+    <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script>
+      //button in mobile-screen
+      function showhide() {
+        var div1 = document.getElementById("mapsec2");
+        var div2 = document.getElementById("mapsec3");
+        if (div1.style.display !== "block" && div2.style.display !== "block") {
+          div1.style.display = "block";
+          div2.style.display = "block";
+        } else {
+          div1.style.display = "none";
+          div2.style.display = "none";
+        }
+      }
+
+      // refreshing the site
+      history.scrollRestoration = "manual";
+    </script>
+  </body>
+</html>
+
+<!-- background: linear-gradient(-45deg, rgba(28,30,83,1) 42%, rgba(28,30,83,1) 100%);
+ -->

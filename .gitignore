@@ -1,0 +1,5 @@
+node_modules
+
+src/tailwind
+
+tailwind.config.js
