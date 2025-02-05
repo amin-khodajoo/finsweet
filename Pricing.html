@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finsweet: Webflow Development, Design, and Product Agency</title>
+    <link rel="shortcut icon" href="public/images/icon/icon.png" />
+    <link rel="stylesheet" href="src/CSS/main.css" />
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css" />
+  </head>
+  <body class="bg-[#E5E5E5]">
+    <!-- #region project -->
+    <div class="(Project) max-w-[1600px] mx-auto">
+      <!-- #region shadow -->
+      <div
+        class="fixed w-full h-screen left-0 top-0 tablet:none mobile:hidden bg-[#2b2b2bbb] z-10"
+        id="mapsec2"
+      ></div>
+      <!-- #endregion -->
+
+      <!-- #region navbar -->
+      <nav
+        class="(navbar) w-full h-[92px] bg-[#1C1E53] flex justify-between sticky top-0 z-50"
+      >
+        <div
+          class="(nav-left) w-fit h-full pt-[33px] mobile:pl-[20px] desktop:pl-[160px]"
+        >
+          <img
+            src="public/images/navbar/logo.svg"
+            class="w-[122px] h-[24.71px]"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="(nav-right) font-[reg] font-[500] text-[16px] leading-[28px] flex justify-center items-center"
+        >
+          <ul
+            class="text-[#BBBBCB] tablet:w-[398px] tablet:-[32.04px] justify-between items-start capitalize tablet:flexed mobile:hidden tablet:static mobile:absolute mobile:right-[10px] mobile:top-[100px] mobile:w-[200px] mobile:bg-[#1C1E53] mobile:border-solid mobile:border-[2px] mobile:border-[#3439bb] mobile:pl-[10px] mobile:rounded-[8px] tablet:border-none z-[60]"
+            id="mapsec3"
+          >
+            <li class="hover:text-[#fff]"><a href="index.html">home</a></li>
+            <li class="hover:text-[#fff] tablet:hidden">
+              <a href="#">contact</a>
+            </li>
+            <li class="hover:text-[#fff]"><a href="#">about us</a></li>
+            <li class="hover:text-[#fff]"><a href="#">features</a></li>
+            <li class="hover:text-[#fff]"><a href="#">pricing</a></li>
+            <li class="uppercase hover:text-[#fff]"><a href="#">faq</a></li>
+            <li class="hover:text-[#fff]"><a href="blog.html">blog</a></li>
+          </ul>
+          <button
+            href="#"
+            class="tablet:w-[185px] mobile:w-[100px] h-[60px]  mobile:mr-[20px] desktop:mr-[160px] ml-[48px] border-solid border-[2px] border-[#F4F6FC33] rounded-[50px] text-[#fff] capitalize tablet:flex justify-center items-center mobile:hidden"
+          >
+            contact us
+          </button>
+          <button
+            class="tablet:w-[185px] mobile:w-[100px] h-[60px]  mobile:mr-[20px] desktop:mr-[160px] ml-[48px] border-solid border-[2px] border-[#F4F6FC33] rounded-[50px] text-[#fff] capitalize tablet:hidden mobile:block z-[60]"
+            onclick="showhide()"
+          >
+            Menu
+          </button>
+        </div>
+      </nav>
+      <!-- #endregion -->
+
+      <!-- #region main -->
+      <main class="w-full bg-white py-[128px]">
+        <section
+          class="(sec-1) max-w-[562px] min-h-[136px] flex flex-col justify-between items-center mx-auto mb-[64px]"
+        >
+          <h2
+            class="font-[reg] font-[600] tablet:text-[48px] mobile:text-[36px] text-center leading-[64px] text-[#282938] mb-[16px]"
+          >
+            Our Pricing Plans
+          </h2>
+          <p
+            class="font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] opacity-[70%] text-center"
+          >
+            When you’re ready to go beyond prototyping in Figma, Webflow is
+            ready to help you bring your designs to life — without coding them.
+          </p>
+        </section>
+
+        <section class="(sec-2) w-full mb-[128px]">
+          <div
+            class="w-fit px-[3px] mx-auto flex flex-row flex-wrap justify-center items-center gap-[32px]"
+          >
+            <div
+              class="tablet:w-[406px] mobile:max-w-[406px] h-[745px] bg-[#F4F6FC] rounded-[12px] px-[48px]"
+            >
+              <div
+                class="flex gap-x-[8px] justify-start items-center pt-[64px] mb-[20px]"
+              >
+                <span
+                  class="font-[reg] font-[600] text-[38px] leading-[56px] text-[#282938]"
+                  >$299</span
+                >
+                <a
+                  href="#"
+                  class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#2405F2]"
+                  >Per Design</a
+                >
+              </div>
+              <h4
+                class="font-[reg] font-[400] text-[24px] leading-[36px] text-[#282938] mb-[8px]"
+              >
+                Landing Page
+              </h4>
+              <h4
+                class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938] opacity-[70%] mb-[78px]"
+              >
+                When you’re ready to go beyond prototyping in Figma,
+              </h4>
+
+              <div
+                class="w-[217px] h-[220px] flex flex-col justify-between mb-[79px]"
+              >
+                <div class="flex gap-x-[12px] items-center justify-start">
+                  <span
+                    ><img src="public/images/pricing/pointer-1.svg" alt=""
+                  /></span>
+                  <span
+                    class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938]"
+                    >All limited links</span
+                  >
+                </div>
+                <div class="flex gap-x-[12px] items-center justify-start">
+                  <span
+                    ><img src="public/images/pricing/pointer-1.svg" alt=""
+                  /></span>
+                  <span
+                    class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938]"
+                    >Own analytics platform</span
+                  >
+                </div>
+                <div class="flex gap-x-[12px] items-center justify-start">
+                  <span
+                    ><img src="public/images/pricing/pointer-1.svg" alt=""
+                  /></span>
+                  <span
+                    class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938]"
+                    >Chat support</span
+                  >
+                </div>
+                <div class="flex gap-x-[12px] items-center justify-start">
+                  <span
+                    ><img src="public/images/pricing/pointer-2.svg" alt=""
+                  /></span>
+                  <span
+                    class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938]"
+                    >Optimize hashtags</span
+                  >
+                </div>
+                <div class="flex gap-x-[12px] items-center justify-start">
+                  <span
+                    ><img src="public/images/pricing/pointer-2.svg" alt=""
+                  /></span>
+                  <span
+                    class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938]"
+                    >Unlimited users</span
+                  >
+                </div>
+              </div>
+
+              <button
+                class="tablet:w-[254px] mobile:w-full h-[64px] bg-[#282938] font-[reg] font-[600] text-[18px] leading-[32px] text-[#F4F6FC] rounded-[41px] block mx-auto"
+              >
+                Get started
+              </button>
+            </div>
+            <div
+              class="tablet:w-[406px] mobile:max-w-[406px] h-[745px] bg-[#1C1E53] rounded-[12px] px-[48px] relative"
+            >
+              <div
+                class="absolute h-[600px] w-full bg-white opacity-[6%] top-0 left-0 rounded-b-[50%]"
+              ></div>
+
+              <div
+                class="flex gap-x-[8px] justify-start items-center pt-[64px] mb-[20px]"
+              >
+                <span
+                  class="font-[reg] font-[600] text-[38px] leading-[56px] text-[#FFFFFF]"
+                  >$399</span
+                >
+                <a
+                  href="#"
+                  class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#FCD980]"
+                  >Multi Design</a
+                >
+              </div>
+              <h4
+                class="font-[reg] font-[400] text-[24px] leading-[36px] text-[#FFFFFF] mb-[8px]"
+              >
+                Website Page
+              </h4>
+              <h4
+                class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#FFFFFF] opacity-[70%] mb-[50px]"
+              >
+                When you’re ready to go beyond prototyping in Figma, Webflow’s
+                ready to help.
+              </h4>
+
+              <div
+                class="w-[217px] h-[220px] flex flex-col justify-between mb-[79px]"
+              >
+                <div class="flex gap-x-[12px] items-center justify-start">
+                  <span
+                    ><img src="public/images/pricing/pointer-1.svg" alt=""
+                  /></span>
+                  <span
+                    class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#FFFFFF]"
+                    >All limited links</span
+                  >
+                </div>
+                <div class="flex gap-x-[12px] items-center justify-start">
+                  <span
+                    ><img src="public/images/pricing/pointer-1.svg" alt=""
+                  /></span>
+                  <span
+                    class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#FFFFFF]"
+                    >Own analytics platform</span
+                  >
+                </div>
+                <div class="flex gap-x-[12px] items-center justify-start">
+                  <span
+                    ><img src="public/images/pricing/pointer-1.svg" alt=""
+                  /></span>
+                  <span
+                    class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#FFFFFF]"
+                    >Chat support</span
+                  >
+                </div>
+                <div class="flex gap-x-[12px] items-center justify-start">
+                  <span
+                    ><img src="public/images/pricing/pointer-1.svg" alt=""
+                  /></span>
+                  <span
+                    class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#FFFFFF]"
+                    >Optimize hashtags</span
+                  >
+                </div>
+                <div class="flex gap-x-[12px] items-center justify-start">
+                  <span
+                    ><img src="public/images/pricing/pointer-1.svg" alt=""
+                  /></span>
+                  <span
+                    class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#FFFFFF]"
+                    >Unlimited users</span
+                  >
+                </div>
+              </div>
+
+              <button
+                class="tablet:w-[254px] mobile:w-full h-[64px] bg-[#FCD980] font-[reg] font-[600] text-[18px] leading-[32px] text-[#282938] rounded-[41px] block mx-auto"
+              >
+                Get started
+              </button>
+            </div>
+            <div
+              class="tablet:w-[406px] mobile:max-w-[406px] h-[745px] bg-[#F4F6FC] rounded-[12px] px-[48px]"
+            >
+              <div
+                class="flex gap-x-[8px] justify-start items-center pt-[64px] mb-[20px]"
+              >
+                <span
+                  class="font-[reg] font-[600] text-[38px] leading-[56px] text-[#282938]"
+                  >$499+</span
+                >
+                <a
+                  href="#"
+                  class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#2405F2]"
+                  >Per Design</a
+                >
+              </div>
+              <h4
+                class="font-[reg] font-[400] text-[24px] leading-[36px] text-[#282938] mb-[8px]"
+              >
+                Complex Project
+              </h4>
+              <h4
+                class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938] opacity-[70%] mb-[78px]"
+              >
+                When you’re ready to go beyond prototyping in Figma,
+              </h4>
+
+              <div
+                class="w-[217px] h-[220px] flex flex-col justify-between mb-[79px]"
+              >
+                <div class="flex gap-x-[12px] items-center justify-start">
+                  <span
+                    ><img src="public/images/pricing/pointer-1.svg" alt=""
+                  /></span>
+                  <span
+                    class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938]"
+                    >All limited links</span
+                  >
+                </div>
+                <div class="flex gap-x-[12px] items-center justify-start">
+                  <span
+                    ><img src="public/images/pricing/pointer-1.svg" alt=""
+                  /></span>
+                  <span
+                    class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938]"
+                    >Own analytics platform</span
+                  >
+                </div>
+                <div class="flex gap-x-[12px] items-center justify-start">
+                  <span
+                    ><img src="public/images/pricing/pointer-1.svg" alt=""
+                  /></span>
+                  <span
+                    class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938]"
+                    >Chat support</span
+                  >
+                </div>
+                <div class="flex gap-x-[12px] items-center justify-start">
+                  <span
+                    ><img src="public/images/pricing/pointer-1.svg" alt=""
+                  /></span>
+                  <span
+                    class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938]"
+                    >Optimize hashtags</span
+                  >
+                </div>
+                <div class="flex gap-x-[12px] items-center justify-start">
+                  <span
+                    ><img src="public/images/pricing/pointer-1.svg" alt=""
+                  /></span>
+                  <span
+                    class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938]"
+                    >Unlimited users</span
+                  >
+                </div>
+              </div>
+
+              <button
+                class="tablet:w-[254px] mobile:w-full h-[64px] bg-[#282938] font-[reg] font-[600] text-[18px] leading-[32px] text-[#F4F6FC] rounded-[41px] block mx-auto"
+              >
+                Contact us
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="(sec-5) w-full bg-white flex justify-center desktop:items-start desktop:flex-row mobile:flex-col gap-y-[70px] gap-x-[109px] tablet:px-0 mobile:px-[10px]"
+        >
+          <div
+            class="tablet:w-[328px] mobile:max-w-[400px] tablet:m-0 mobile:ml-[20px] tablet:h-[160px] flex flex-col justify-between desktop:p-0 tablet:ml-[100px]"
+          >
+            <h3
+              class="font-[reg] font-[600] text-[38px] leading-[56px] text-[#282938]"
+            >
+              Frequently<br />asked questions
+            </h3>
+            <a
+              href="#"
+              class="font-[reg] font-[500] text-[18px] leading-[32px] text-[#2405F2]"
+              >Contact us for more info</a
+            >
+          </div>
+
+          <div
+            class="desktop:w-[846.31px] mobile::w-auto mobile:h-auto desktop:h-[530px] desktop:m-0 mobile:mx-auto"
+          >
+            <div
+              class="(sec-5-part-1) collapse collapse-plus border-solid border-b-2 border-[#ECECF1] rounded-none"
+            >
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div
+                class="collapse-title mobile:text-[20px] tablet:text-[24px] mobile:h-[60px] w-auto tablet:h-auto line-clamp-1 overflow-hidden font-[reg] font-[500] leading-[36px] text-[#282938]"
+              >
+                <span class="font-[400] leading-[36px] text-[#2405F2] pr-[59px]"
+                  >01</span
+                >
+                How much time does it take?
+              </div>
+              <div
+                class="collapse-content tablet:w-[624px] mobile:w-auto mobile:px-[81.77px] tablet:p-0 tablet:mx-auto font-[reg] font-[500] mobile:text-[14px] tablet:text-[18px] leading-[32px] text-[#282938] opacity-[87%]"
+              >
+                <p class="pt-[16px] pb-[48px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div
+              class="(sec-5-part-2) collapse collapse-plus border-solid border-b-2 border-[#ECECF1] rounded-none"
+            >
+              <input type="radio" name="my-accordion-3" />
+              <div
+                class="collapse-title mobile:text-[20px] tablet:text-[24px] mobile:h-[60px] w-auto tablet:h-auto h-[60px] line-clamp-1 overflow-hidden font-[reg] font-[500] leading-[36px] text-[#282938]"
+              >
+                <span
+                  class="w-[24px] h-[36px] font-[400] leading-[36px] text-[#2405F2] pr-[59px]"
+                  >02</span
+                >
+                What is your class naming convention?
+              </div>
+              <div
+                class="collapse-content tablet:w-[624px] mobile:w-auto mobile:px-[81.77px] tablet:p-0 tablet:mx-auto font-[reg] font-[500] mobile:text-[14px] tablet:text-[18px] leading-[32px] text-[#282938] opacity-[87%]"
+              >
+                <p class="pt-[16px] pb-[48px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div
+              class="(sec-5-part-3) collapse collapse-plus border-solid border-b-2 border-[#ECECF1] rounded-none"
+            >
+              <input type="radio" name="my-accordion-3" />
+              <div
+                class="collapse-title mobile:text-[20px] tablet:text-[24px] mobile:h-[60px] w-auto tablet:h-auto h-[60px] line-clamp-1 overflow-hidden font-[reg] font-[500] leading-[36px] text-[#282938]"
+              >
+                <span
+                  class="w-[24px] h-[36px] font-[400] leading-[36px] text-[#2405F2] pr-[59px]"
+                  >03</span
+                >
+                How do you communicate?
+              </div>
+              <div
+                class="collapse-content tablet:w-[624px] mobile:w-auto mobile:px-[81.77px] tablet:p-0 tablet:mx-auto font-[reg] font-[500] mobile:text-[14px] tablet:text-[18px] leading-[32px] text-[#282938] opacity-[87%]"
+              >
+                <p class="pt-[16px] pb-[48px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div
+              class="(sec-5-part-4) collapse collapse-plus border-solid border-b-2 border-[#ECECF1] rounded-none"
+            >
+              <input type="radio" name="my-accordion-3" />
+              <div
+                class="collapse-title mobile:text-[20px] tablet:text-[24px] mobile:h-[60px] w-auto tablet:h-auto h-[60px] line-clamp-1 overflow-hidden font-[reg] font-[500] leading-[36px] text-[#282938]"
+              >
+                <span
+                  class="w-[24px] h-[36px] font-[400] leading-[36px] text-[#2405F2] pr-[59px]"
+                  >04</span
+                >
+                I have a bigger project. Can you handle it?
+              </div>
+              <div
+                class="collapse-content tablet:w-[624px] mobile:w-auto mobile:px-[81.77px] tablet:p-0 tablet:mx-auto font-[reg] font-[500] mobile:text-[14px] tablet:text-[18px] leading-[32px] text-[#282938] opacity-[87%]"
+              >
+                <p class="pt-[16px] pb-[48px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div class="(sec-5-part-5) collapse collapse-plus">
+              <input type="radio" name="my-accordion-3" />
+              <div
+                class="collapse-title mobile:text-[20px] tablet:text-[24px] mobile:h-[60px] w-auto tablet:h-auto h-[60px] line-clamp-1 overflow-hidden font-[reg] font-[500] leading-[36px] text-[#282938]"
+              >
+                <span
+                  class="w-[24px] h-[36px] font-[400] leading-[36px] text-[#2405F2] pr-[59px]"
+                  >05</span
+                >
+                What is your class naming convention?
+              </div>
+              <div
+                class="collapse-content tablet:w-[624px] mobile:w-auto mobile:px-[81.77px] tablet:p-0 tablet:mx-auto font-[reg] font-[500] mobile:text-[14px] tablet:text-[18px] leading-[32px] text-[#282938] opacity-[87%]"
+              >
+                <p class="pt-[16px] pb-[48px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- #endregion -->
+
+      <!-- #region footer -->
+      <footer class="w-full min-h-[489px] bg-[#1C1E53]">
+        <section class="(ft1) w-full min-h-[397px] pt-[96px] relative">
+          <div
+            class="desktop:w-[1058px] tablet:ml-[160px] flex tablet:justify-between mobile:justify-center gap-y-[70px] gap-x-[20px] flex-wrap flex-row px-[10px]"
+          >
+            <div class="(left)">
+              <img
+                class="w-[160px] h-[32.41px]"
+                src="public/images/footer/logo.svg"
+                alt=""
+              />
+              <p
+                class="max-w-[399px] font-[reg] font-[500] text-[16px] leading-[28px] text-white opacity-[80%] mt-[23.59px]"
+              >
+                We are always open to discuss your project and improve your
+                online presence.
+              </p>
+            </div>
+            <div class="(right) tablet:w-[399px] mobile:max-w-[399px]">
+              <h2
+                class="font-[reg] font-[600] text-[48px] leading-[64px] text-white"
+              >
+                Lets Talk!
+              </h2>
+              <p
+                class="font-[reg] font-[500] text-[16px] leading-[28px] text-white opacity-[80%] mt-[14px]"
+              >
+                We are always open to discuss your project, improve your online
+                presence and help with your UX/UI design challenges.
+              </p>
+              <div class="w-[144px] flex justify-between mt-[28px]">
+                <a href="#">
+                  <img src="public/images/footer/1.svg" alt="" />
+                </a>
+                <a href="#">
+                  <img src="public/images/footer/2.svg" alt="" />
+                </a>
+                <a href="#">
+                  <img src="public/images/footer/3.svg" alt="" />
+                </a>
+                <a href="#">
+                  <img src="public/images/footer/4.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mobile:w-full tablet:w-[517px] h-[95px] relative mobile:left-0 tablet:left-[160px] bottom-0 bg-[#FCD980] tablet:block mobile:flex justify-center items-center desktop:mt-0 mobile:mt-[17px]"
+          >
+            <div class="w-[343px] tablet:ml-[37px] flex justify-between">
+              <div class="(left) w-fit tablet:mt-[17px]">
+                <h2
+                  class="font-[reg] font-[500] text-[18px] leading-[32px] text-[#282938]"
+                >
+                  Email me at
+                </h2>
+                <h4
+                  class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938] opacity-[80%]"
+                >
+                  contact@website.com
+                </h4>
+              </div>
+              <div class="(right) tablet:mt-[17px]">
+                <h2
+                  class="font-[reg] font-[500] text-[18px] leading-[32px] text-[#282938]"
+                >
+                  Call us
+                </h2>
+                <h4
+                  class="font-[reg] font-[400] text-[16px] leading-[28px] text-[#282938] opacity-[80%]"
+                >
+                  0927 6277 28525
+                </h4>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="(ft2) w-full h-[92px] bg-white flex tablet:justify-between flex-wrap flex-row mobile:justify-center items-center mobile:px-0 tablet:px-[160px] gap-x-[70px]"
+        >
+          <h3
+            class="font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] desktop:mx-0 mx-auto"
+          >
+            Copyright 2022, Finsweet.com
+          </h3>
+
+          <ul
+            class="w-[437px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] tablet:flex justify-between mobile:hidden desktop:mx-0 mx-auto"
+          >
+            <li class="hover:text-[#585858]"><a href="#">home</a></li>
+            <li class="hover:text-[#585858]"><a href="#">about us</a></li>
+            <li class="hover:text-[#585858]"><a href="#">features</a></li>
+            <li class="hover:text-[#585858]"><a href="#">pricing</a></li>
+            <li class="uppercase hover:text-[#585858]"><a href="#">faq</a></li>
+            <li class="hover:text-[#585858]"><a href="#">blog</a></li>
+          </ul>
+        </section>
+      </footer>
+      <!-- #endregion -->
+    </div>
+    <!-- #endregion -->
+
+    <script>
+      //button in mobile-screen
+      function showhide() {
+        var div1 = document.getElementById("mapsec2");
+        var div2 = document.getElementById("mapsec3");
+        if (div1.style.display !== "block" && div2.style.display !== "block") {
+          div1.style.display = "block";
+          div2.style.display = "block";
+        } else {
+          div1.style.display = "none";
+          div2.style.display = "none";
+        }
+      }
+
+      // refreshing the site
+      history.scrollRestoration = "manual";
+    </script>
+  </body>
+</html>

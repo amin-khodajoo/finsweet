@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finsweet: Webflow Development, Design, and Product Agency</title>
-    <link rel="shortcut icon" href="public/images/icon/icon.png">
+    <link rel="shortcut icon" href="public/images/icon/icon.png" />
     <link rel="stylesheet" href="src/CSS/main.css" />
-    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css" />
   </head>
   <body class="bg-[#E5E5E5]">
     <!-- #region project -->
@@ -40,19 +40,25 @@
             id="mapsec3"
           >
             <li class="hover:text-[#fff]"><a href="#">home</a></li>
+            <li class="hover:text-[#fff] tablet:hidden">
+              <a href="#">contact</a>
+            </li>
             <li class="hover:text-[#fff]"><a href="#">about us</a></li>
             <li class="hover:text-[#fff]"><a href="#">features</a></li>
-            <li class="hover:text-[#fff]"><a href="#">pricing</a></li>
+            <li class="hover:text-[#fff]">
+              <a href="Pricing.html">pricing</a>
+            </li>
             <li class="uppercase hover:text-[#fff]"><a href="#">faq</a></li>
-            <li class="hover:text-[#fff]"><a href="#">blog</a></li>
+            <li class="hover:text-[#fff]"><a href="blog.html">blog</a></li>
           </ul>
-          <button
-            class="tablet:w-[185px] mobile:w-[100px] h-[60px] mt-[16px] mobile:mr-[20px] desktop:mr-[160px] ml-[48px] border-solid border-[2px] border-[#F4F6FC33] rounded-[50px] text-[#fff] capitalize tablet:block mobile:hidden"
+          <a
+            href="#"
+            class="tablet:w-[185px] mobile:w-[100px] h-[60px] mobile:mr-[20px] desktop:mr-[160px] ml-[48px] border-solid border-[2px] border-[#F4F6FC33] rounded-[50px] text-[#fff] capitalize tablet:flex justify-center items-center mobile:hidden"
           >
             contact us
-          </button>
+          </a>
           <button
-            class="tablet:w-[185px] mobile:w-[100px] h-[60px] mt-[16px] mobile:mr-[20px] desktop:mr-[160px] ml-[48px] border-solid border-[2px] border-[#F4F6FC33] rounded-[50px] text-[#fff] capitalize tablet:hidden mobile:block z-[60]"
+            class="tablet:w-[185px] mobile:w-[100px] h-[60px]  mobile:mr-[20px] desktop:mr-[160px] ml-[48px] border-solid border-[2px] border-[#F4F6FC33] rounded-[50px] text-[#fff] capitalize tablet:hidden mobile:block z-[60]"
             onclick="showhide()"
           >
             Menu
@@ -485,7 +491,7 @@
                 <div class="swiper-slide bg-transparent">
                   <div class="flex justify-between flex-col w-full h-full">
                     <p
-                      class="w-full h-[144px] line-clamp-3 font-[reg] font-[500] text-[32px] leading-[48px] text-[#282938]"
+                      class="w-full h-[144px] line-clamp-3 font-[reg] font-[500] tablet:text-[32px] mobile:text-[26px] leading-[48px] text-[#282938]"
                     >
                       "The best agency we’ve worked with so far. They understand
                       our product and are able to add new features with a great
@@ -511,7 +517,7 @@
                 <div class="swiper-slide bg-transparent">
                   <div class="flex justify-between flex-col w-full h-full">
                     <p
-                      class="w-full h-[144px] line-clamp-3 font-[reg] font-[500] text-[32px] leading-[48px] text-[#282938]"
+                      class="w-full h-[144px] line-clamp-3 font-[reg] font-[500] tablet:text-[32px] mobile:text-[26px] leading-[48px] text-[#282938]"
                     >
                       "The best agency we’ve worked with so far. They understand
                       our product and are able to add new features with a great
@@ -537,7 +543,7 @@
                 <div class="swiper-slide bg-transparent">
                   <div class="flex justify-between flex-col w-full h-full">
                     <p
-                      class="w-full h-[144px] line-clamp-3 font-[reg] font-[500] text-[32px] leading-[48px] text-[#282938]"
+                      class="w-full h-[144px] line-clamp-3 font-[reg] font-[500] tablet:text-[32px] mobile:text-[26px] leading-[48px] text-[#282938]"
                     >
                       "The best agency we’ve worked with so far. They understand
                       our product and are able to add new features with a great
@@ -737,13 +743,13 @@
         <!-- #endregion -->
         <!-- #region sec-6 -->
         <section
-          class="(sec-6) w-full h-[819px] pb-[128px] bg-white mobile:px-[10px] tablet:px-0"
+          class="(sec-6) w-full min-h-[819px] pb-[128px] bg-white mobile:px-[10px] tablet:px-0"
         >
           <div
             class="desktop:w-[1280px] tablet:w-[800px] tablet:max-w-full mobile:max-w-[500px] h-full mx-auto bg-[#1C1E53] flex justify-center tablet:rounded-none mobile:rounded-[8px]"
           >
             <div
-              class="(left) mobile:hidden tablet:block tablet:w-[400px] desktop:w-[656px] h-[691px] relative"
+              class="(left) mobile:hidden tablet:block tablet:w-[400px] desktop:w-[656px] min-h-[691px] relative"
             >
               <img
                 class="w-full h-full object-cover opacity-[50%]"
@@ -770,15 +776,15 @@
             </div>
 
             <div
-              class="(right) desktop:w-[624px] tablet:w-[400px] mobile:w-full h-[691px]"
+              class="(right) desktop:w-[624px] tablet:w-[400px] mobile:w-full min-h-[691px]"
             >
               <h3
-                class="desktop:w-[432px] mobile:w-[300px] font-[reg] font-[400] text-[32px] leading-[48px] text-white mx-auto mb-[16px] mt-[96px]"
+                class="desktop:w-[432px] mobile:w-[290px] font-[reg] font-[400] text-[32px] leading-[48px] text-white mx-auto mb-[16px] mt-[96px]"
               >
                 Send inquiry
               </h3>
               <p
-                class="desktop:w-[432px] mobile:w-[300px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#F4F6FC] mx-auto"
+                class="desktop:w-[432px] mobile:w-[290px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#F4F6FC] mx-auto"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore.
@@ -787,7 +793,7 @@
               <form
                 action="index.html"
                 method="get"
-                class="desktop:w-[432px] mobile:w-[300px] flex flex-col justify-center items-center mx-auto gap-y-[16px] mt-[40px]"
+                class="desktop:w-[432px] mobile:w-[290px] flex flex-col justify-center items-center mx-auto gap-y-[16px] mt-[40px]"
               >
                 <input
                   id="t1"
@@ -821,7 +827,7 @@
 
               <a
                 href="#"
-                class="block w-fit h-[32px] font-[reg] font-[500] text-[16px] leading-[28px] text-white mt-[28px] mx-auto"
+                class="block w-fit h-[32px] font-[reg] font-[500] text-[16px] leading-[28px] text-white mt-[28px] mx-auto desktop:mb-0 mobile:mb-[48px]"
               >
                 <h2 class="inline-block">Get in touch with us</h2>
                 <img
@@ -840,7 +846,7 @@
             class="desktop:w-[1280px] tablet:w-fit desktop:h-[737px] mx-auto"
           >
             <h2
-              class="font-[reg] font-[600] text-[48px] leading-[64px] text-[#282938] mb-[64px]"
+              class="p-[20px] font-[reg] font-[600] text-[48px] leading-[64px] text-[#282938] mb-[64px]"
             >
               Our blog
             </h2>
@@ -1034,7 +1040,9 @@
           </div>
         </section>
 
-        <section class="(ft2) w-full h-[92px] bg-white flex tablet:justify-between flex-wrap flex-row mobile:justify-center items-center mobile:px-0 tablet:px-[160px] gap-x-[70px]">
+        <section
+          class="(ft2) w-full h-[92px] bg-white flex tablet:justify-between flex-wrap flex-row mobile:justify-center items-center mobile:px-0 tablet:px-[160px] gap-x-[70px]"
+        >
           <h3
             class="font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] desktop:mx-0 mx-auto"
           >
@@ -1058,7 +1066,7 @@
     <!-- #endregion -->
 
     <!-- Swiper JS -->
-    <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="swiper/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
@@ -1068,6 +1076,7 @@
         },
       });
     </script>
+
     <script>
       //button in mobile-screen
       function showhide() {
@@ -1087,6 +1096,3 @@
     </script>
   </body>
 </html>
-
-<!-- background: linear-gradient(-45deg, rgba(28,30,83,1) 42%, rgba(28,30,83,1) 100%);
- -->

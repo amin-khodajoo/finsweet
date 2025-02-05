@@ -1377,8 +1377,20 @@ details.collapse summary::-webkit-details-marker {
   margin-bottom: 16px;
 }
 
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+
 .mb-\[24px\] {
   margin-bottom: 24px;
+}
+
+.mb-\[32px\] {
+  margin-bottom: 32px;
+}
+
+.mb-\[48px\] {
+  margin-bottom: 48px;
 }
 
 .mb-\[50px\] {
@@ -1387,6 +1399,14 @@ details.collapse summary::-webkit-details-marker {
 
 .mb-\[64px\] {
   margin-bottom: 64px;
+}
+
+.mb-\[78px\] {
+  margin-bottom: 78px;
+}
+
+.mb-\[79px\] {
+  margin-bottom: 79px;
 }
 
 .mb-\[8px\] {
@@ -1427,6 +1447,10 @@ details.collapse summary::-webkit-details-marker {
 
 .mt-\[23px\] {
   margin-top: 23px;
+}
+
+.mt-\[24px\] {
+  margin-top: 24px;
 }
 
 .mt-\[28px\] {
@@ -1506,6 +1530,10 @@ details.collapse summary::-webkit-details-marker {
   height: 178px;
 }
 
+.h-\[220px\] {
+  height: 220px;
+}
+
 .h-\[22px\] {
   height: 22px;
 }
@@ -1546,6 +1574,10 @@ details.collapse summary::-webkit-details-marker {
   height: 54px;
 }
 
+.h-\[600px\] {
+  height: 600px;
+}
+
 .h-\[60px\] {
   height: 60px;
 }
@@ -1554,12 +1586,8 @@ details.collapse summary::-webkit-details-marker {
   height: 64px;
 }
 
-.h-\[691px\] {
-  height: 691px;
-}
-
-.h-\[819px\] {
-  height: 819px;
+.h-\[745px\] {
+  height: 745px;
 }
 
 .h-\[92px\] {
@@ -1591,6 +1619,14 @@ details.collapse summary::-webkit-details-marker {
   max-height: 184px;
 }
 
+.max-h-\[477px\] {
+  max-height: 477px;
+}
+
+.min-h-\[136px\] {
+  min-height: 136px;
+}
+
 .min-h-\[397px\] {
   min-height: 397px;
 }
@@ -1599,8 +1635,24 @@ details.collapse summary::-webkit-details-marker {
   min-height: 489px;
 }
 
+.min-h-\[593px\] {
+  min-height: 593px;
+}
+
 .min-h-\[609px\] {
   min-height: 609px;
+}
+
+.min-h-\[691px\] {
+  min-height: 691px;
+}
+
+.min-h-\[819px\] {
+  min-height: 819px;
+}
+
+.min-h-\[857px\] {
+  min-height: 857px;
 }
 
 .w-\[122px\] {
@@ -1621,6 +1673,10 @@ details.collapse summary::-webkit-details-marker {
 
 .w-\[160px\] {
   width: 160px;
+}
+
+.w-\[217px\] {
+  width: 217px;
 }
 
 .w-\[230px\] {
@@ -1660,6 +1716,10 @@ details.collapse summary::-webkit-details-marker {
   width: 100%;
 }
 
+.max-w-\[1280px\] {
+  max-width: 1280px;
+}
+
 .max-w-\[1600px\] {
   max-width: 1600px;
 }
@@ -1676,8 +1736,20 @@ details.collapse summary::-webkit-details-marker {
   max-width: 405px;
 }
 
+.max-w-\[562px\] {
+  max-width: 562px;
+}
+
 .max-w-\[630px\] {
   max-width: 630px;
+}
+
+.max-w-\[831px\] {
+  max-width: 831px;
+}
+
+.max-w-\[949px\] {
+  max-width: 949px;
 }
 
 .scale-x-\[-1\] {
@@ -1759,6 +1831,11 @@ details.collapse summary::-webkit-details-marker {
        column-gap: 110px;
 }
 
+.gap-x-\[12px\] {
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+}
+
 .gap-x-\[14px\] {
   -moz-column-gap: 14px;
        column-gap: 14px;
@@ -1779,6 +1856,11 @@ details.collapse summary::-webkit-details-marker {
        column-gap: 70px;
 }
 
+.gap-x-\[8px\] {
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+}
+
 .gap-y-\[16px\] {
   row-gap: 16px;
 }
@@ -1791,12 +1873,20 @@ details.collapse summary::-webkit-details-marker {
   row-gap: 48px;
 }
 
+.gap-y-\[64px\] {
+  row-gap: 64px;
+}
+
 .gap-y-\[70px\] {
   row-gap: 70px;
 }
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.rounded-\[12px\] {
+  border-radius: 12px;
 }
 
 .rounded-\[41px\] {
@@ -1817,6 +1907,11 @@ details.collapse summary::-webkit-details-marker {
 
 .rounded-none {
   border-radius: 0px;
+}
+
+.rounded-b-\[50\%\] {
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
 }
 
 .border-\[1\.5px\] {
@@ -1851,6 +1946,11 @@ details.collapse summary::-webkit-details-marker {
 .bg-\[\#1C1E53\] {
   --tw-bg-opacity: 1;
   background-color: rgb(28 30 83 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#282938\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(40 41 56 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[\#2b2b2bbb\] {
@@ -1921,9 +2021,18 @@ details.collapse summary::-webkit-details-marker {
      object-fit: cover;
 }
 
+.p-\[20px\] {
+  padding: 20px;
+}
+
 .px-\[10px\] {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.px-\[15px\] {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .px-\[20px\] {
@@ -1931,9 +2040,29 @@ details.collapse summary::-webkit-details-marker {
   padding-right: 20px;
 }
 
+.px-\[48px\] {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
 .py-\[128px\] {
   padding-top: 128px;
   padding-bottom: 128px;
+}
+
+.px-\[5px\] {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.px-\[px\] {
+  padding-left: px;
+  padding-right: px;
+}
+
+.px-\[3px\] {
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .pb-\[128px\] {
@@ -1978,6 +2107,10 @@ details.collapse summary::-webkit-details-marker {
 
 .pt-\[58px\] {
   padding-top: 58px;
+}
+
+.pt-\[64px\] {
+  padding-top: 64px;
 }
 
 .pt-\[96px\] {
@@ -2137,6 +2270,10 @@ details.collapse summary::-webkit-details-marker {
 
 .opacity-\[50\%\] {
   opacity: 50%;
+}
+
+.opacity-\[6\%\] {
+  opacity: 6%;
 }
 
 .opacity-\[70\%\] {
@@ -2348,9 +2485,18 @@ html {
     margin-right: 100px;
   }
 
+  .mobile\:mx-\[10px\] {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   .mobile\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .mobile\:mb-\[48px\] {
+    margin-bottom: 48px;
   }
 
   .mobile\:mb-\[50px\] {
@@ -2421,6 +2567,10 @@ html {
     width: 200px;
   }
 
+  .mobile\:w-\[290px\] {
+    width: 290px;
+  }
+
   .mobile\:w-\[300px\] {
     width: 300px;
   }
@@ -2447,6 +2597,10 @@ html {
 
   .mobile\:max-w-\[400px\] {
     max-width: 400px;
+  }
+
+  .mobile\:max-w-\[406px\] {
+    max-width: 406px;
   }
 
   .mobile\:max-w-\[500px\] {
@@ -2555,6 +2709,14 @@ html {
 
   .mobile\:text-\[20px\] {
     font-size: 20px;
+  }
+
+  .mobile\:text-\[26px\] {
+    font-size: 26px;
+  }
+
+  .mobile\:text-\[36px\] {
+    font-size: 36px;
   }
 
   .mobile\:text-\[40px\] {
@@ -2679,6 +2841,10 @@ html {
     width: 185px;
   }
 
+  .tablet\:w-\[254px\] {
+    width: 254px;
+  }
+
   .tablet\:w-\[293px\] {
     width: 293px;
   }
@@ -2713,6 +2879,10 @@ html {
 
   .tablet\:w-\[405px\] {
     width: 405px;
+  }
+
+  .tablet\:w-\[406px\] {
+    width: 406px;
   }
 
   .tablet\:w-\[517px\] {
@@ -2827,6 +2997,14 @@ html {
     font-size: 24px;
   }
 
+  .tablet\:text-\[32px\] {
+    font-size: 32px;
+  }
+
+  .tablet\:text-\[48px\] {
+    font-size: 48px;
+  }
+
   .tablet\:text-\[57px\] {
     font-size: 57px;
   }
@@ -2863,6 +3041,10 @@ html {
     display: block;
     -webkit-box-orient: horizontal;
     -webkit-line-clamp: none;
+  }
+
+  .desktop\:h-\[1362px\] {
+    height: 1362px;
   }
 
   .desktop\:h-\[284px\] {
