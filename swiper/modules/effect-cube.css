@@ -1,10 +1,10 @@
 .swiper.swiper-cube {
   overflow: visible;
 }
+
 .swiper-cube .swiper-slide {
   pointer-events: none;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   z-index: 1;
   visibility: hidden;
   transform-origin: 0 0;
@@ -17,8 +17,7 @@
 .swiper-cube.swiper-rtl .swiper-slide {
   transform-origin: 100% 0;
 }
-.swiper-cube .swiper-slide-active,
-.swiper-cube .swiper-slide-active .swiper-slide-active {
+.swiper-cube .swiper-slide-active, .swiper-cube .swiper-slide-active .swiper-slide-active {
   pointer-events: auto;
 }
 .swiper-cube .swiper-slide-active,
@@ -37,7 +36,7 @@
   z-index: 0;
 }
 .swiper-cube .swiper-cube-shadow:before {
-  content: '';
+  content: "";
   background: #000;
   position: absolute;
   left: 0;
@@ -46,17 +45,19 @@
   right: 0;
   filter: blur(50px);
 }
+
 .swiper-cube .swiper-slide-next + .swiper-slide {
   pointer-events: auto;
   visibility: visible;
 }
+
 /* Cube slide shadows start */
 .swiper-cube .swiper-slide-shadow-cube.swiper-slide-shadow-top,
 .swiper-cube .swiper-slide-shadow-cube.swiper-slide-shadow-bottom,
 .swiper-cube .swiper-slide-shadow-cube.swiper-slide-shadow-left,
 .swiper-cube .swiper-slide-shadow-cube.swiper-slide-shadow-right {
   z-index: 0;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
-/* Cube slide shadows end */
+
+/* Cube slide shadows end *//*# sourceMappingURL=effect-cube.css.map */

@@ -41,22 +41,22 @@
           >
             <li class="hover:text-[#fff]"><a href="index.html">home</a></li>
             <li class="hover:text-[#fff] tablet:hidden">
-              <a href="#">contact</a>
+              <a href="contactUs.html">contact us</a>
             </li>
-            <li class="hover:text-[#fff]"><a href="#">about us</a></li>
-            <li class="hover:text-[#fff]"><a href="#">features</a></li>
+            <li class="hover:text-[#fff]"><a href="aboutUs.html">about us</a></li>
+            <li class="hover:text-[#fff]"><a href="features.html">features</a></li>
             <li class="hover:text-[#fff]">
               <a href="Pricing.html">pricing</a>
             </li>
-            <li class="uppercase hover:text-[#fff]"><a href="#">faq</a></li>
+            <li class="uppercase hover:text-[#fff]"><a href="./index.html#faq">faq</a></li>
             <li class="hover:text-[#fff]"><a href="#">blog</a></li>
           </ul>
-          <button
-            href="#"
+          <a
+            href="contactUs.html"
             class="tablet:w-[185px] mobile:w-[100px] h-[60px] mobile:mr-[20px] desktop:mr-[160px] ml-[48px] border-solid border-[2px] border-[#F4F6FC33] rounded-[50px] text-[#fff] capitalize tablet:flex justify-center items-center mobile:hidden"
           >
             contact us
-          </button>
+          </a>
           <button
             class="tablet:w-[185px] mobile:w-[100px] h-[60px] mobile:mr-[20px] desktop:mr-[160px] ml-[48px] border-solid border-[2px] border-[#F4F6FC33] rounded-[50px] text-[#fff] capitalize tablet:hidden mobile:block z-[60]"
             onclick="showhide()"
@@ -73,7 +73,7 @@
           class="desktop:w-[1280px] max-w-[1280px] min-h-[857px] mx-auto mb-[128px] px-[15px]"
         >
           <h2
-            class="max-w-[949px] font-[reg] font-[600] text-[48px] leading-[64px] text-[#282938] mx-auto text-center mb-[16px]"
+            class="max-w-[949px] font-[reg] font-[600] tablet:text-[48px] text-[30px] leading-[64px] text-[#282938] mx-auto text-center mb-[16px]"
           >
             A UX Case Study on Creating a Studious Environment for Students
           </h2>
@@ -82,9 +82,9 @@
           >
             Andrew Jonson Posted on 27th January 2021
           </div>
-          <div class="w-full max-h-[477px] mb-[48px]">
+          <div class="w-full max-h-[477px] mb-[48px] overflow-hidden">
             <img
-              class="object-cover w-full max-h-[477px]"
+              class="object-cover w-full max-h-[477px] hover:scale-150 duration-[3s]"
               src="public/images/blog/t1.jpg"
               alt=""
             />
@@ -122,12 +122,14 @@
             >
 
 
-              <div class="(part-1) max-w-[405px] min-h-[593px] tablet:m-0 mobile:mx-[10px]">
-                <img
+              <div class="(part-1) max-w-[405px] min-h-[593px] tablet:m-0 mobile:mx-[10px] group">
+                <div class="overflow-hidden">
+                  <img
                   src="public/images/blog/1.png"
-                  class="w-full h-[285px] object-cover"
+                  class="w-full h-[285px] object-cover group-hover:scale-150 duration-[5s]"
                   alt=""
                 />
+                </div>
                 <span
                   class="font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] opacity-[70%] mt-[32px] block"
                   >27 Jan 2021</span
@@ -145,22 +147,24 @@
                 >
                 <a
                   href="#"
-                  class="block w-fit h-[28px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] mt-[24px]"
+                  class="block w-fit h-[28px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] mt-[24px] a-hover"
                 >
                   <h2 class="inline-block">Read More</h2>
                   <img
-                    class="w-[24px] h-fit inline-block"
+                    class="w-[24px] h-fit inline-block specail-hover duration-200"
                     src="public/images/sec-7/arrow-5.svg"
                     alt=""
                   />
                 </a>
               </div>
-              <div class="(part-2) max-w-[405px] min-h-[593px] tablet:m-0 mobile:mx-[10px]">
-                <img
+              <div class="(part-2) max-w-[405px] min-h-[593px] tablet:m-0 mobile:mx-[10px] group">
+                <div class="overflow-hidden">
+                  <img
                   src="public/images/blog/2.png"
-                  class="w-full h-[285px] object-cover"
+                  class="w-full h-[285px] object-cover group-hover:scale-150 duration-[5s]"
                   alt=""
                 />
+                </div>
                 <span
                   class="font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] opacity-[70%] mt-[32px] block"
                   >27 Jan 2021</span
@@ -178,22 +182,24 @@
                 >
                 <a
                   href="#"
-                  class="block w-fit h-[28px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] mt-[24px]"
+                  class="block w-fit h-[28px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] mt-[24px] a-hover"
                 >
                   <h2 class="inline-block">Read More</h2>
                   <img
-                    class="w-[24px] h-fit inline-block"
+                    class="w-[24px] h-fit inline-block specail-hover duration-200"
                     src="public/images/sec-7/arrow-5.svg"
                     alt=""
                   />
                 </a>
               </div>
-              <div class="(part-3) max-w-[405px] min-h-[593px] tablet:m-0 mobile:mx-[10px]">
-                <img
+              <div class="(part-3) max-w-[405px] min-h-[593px] tablet:m-0 mobile:mx-[10px] group">
+                <div class="overflow-hidden">
+                  <img
                   src="public/images/blog/3.png"
-                  class="w-full h-[285px] object-cover"
+                  class="w-full h-[285px] object-cover group-hover:scale-150 duration-[5s]"
                   alt=""
                 />
+                </div>
                 <span
                   class="font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] opacity-[70%] mt-[32px] block"
                   >27 Jan 2021</span
@@ -211,22 +217,24 @@
                 >
                 <a
                   href="#"
-                  class="block w-fit h-[28px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] mt-[24px]"
+                  class="block w-fit h-[28px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] mt-[24px] a-hover"
                 >
                   <h2 class="inline-block">Read More</h2>
                   <img
-                    class="w-[24px] h-fit inline-block"
+                    class="w-[24px] h-fit inline-block specail-hover duration-200"
                     src="public/images/sec-7/arrow-5.svg"
                     alt=""
                   />
                 </a>
               </div>
-              <div class="(part-4) max-w-[405px] min-h-[593px] tablet:m-0 mobile:mx-[10px]">
-                <img
+              <div class="(part-4) max-w-[405px] min-h-[593px] tablet:m-0 mobile:mx-[10px] group">
+                <div class="overflow-hidden">
+                  <img
                   src="public/images/blog/4.png"
-                  class="w-full h-[285px] object-cover"
+                  class="w-full h-[285px] object-cover group-hover:scale-150 duration-[5s]"
                   alt=""
                 />
+                </div>
                 <span
                   class="font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] opacity-[70%] mt-[32px] block"
                   >27 Jan 2021</span
@@ -244,22 +252,24 @@
                 >
                 <a
                   href="#"
-                  class="block w-fit h-[28px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] mt-[24px]"
+                  class="block w-fit h-[28px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] mt-[24px] a-hover"
                 >
                   <h2 class="inline-block">Read More</h2>
                   <img
-                    class="w-[24px] h-fit inline-block"
+                    class="w-[24px] h-fit inline-block specail-hover duration-200"
                     src="public/images/sec-7/arrow-5.svg"
                     alt=""
                   />
                 </a>
               </div>
-              <div class="(part-5) max-w-[405px] min-h-[593px] tablet:m-0 mobile:mx-[10px]">
-                <img
+              <div class="(part-5) max-w-[405px] min-h-[593px] tablet:m-0 mobile:mx-[10px] group">
+                <div class="overflow-hidden">
+                  <img
                   src="public/images/blog/5.png"
-                  class="w-full h-[285px] object-cover"
+                  class="w-full h-[285px] object-cover group-hover:scale-150 duration-[5s]"
                   alt=""
                 />
+                </div>
                 <span
                   class="font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] opacity-[70%] mt-[32px] block"
                   >27 Jan 2021</span
@@ -277,22 +287,24 @@
                 >
                 <a
                   href="#"
-                  class="block w-fit h-[28px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] mt-[24px]"
+                  class="block w-fit h-[28px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] mt-[24px] a-hover"
                 >
                   <h2 class="inline-block">Read More</h2>
                   <img
-                    class="w-[24px] h-fit inline-block"
+                    class="w-[24px] h-fit inline-block specail-hover duration-200"
                     src="public/images/sec-7/arrow-5.svg"
                     alt=""
                   />
                 </a>
               </div>
-              <div class="(part-6) max-w-[405px] min-h-[593px] tablet:m-0 mobile:mx-[10px]">
-                <img
+              <div class="(part-6) max-w-[405px] min-h-[593px] tablet:m-0 mobile:mx-[10px] group">
+                <div class="overflow-hidden">
+                  <img
                   src="public/images/blog/6.png"
-                  class="w-full h-[285px] object-cover"
+                  class="w-full h-[285px] object-cover group-hover:scale-150 duration-[5s]"
                   alt=""
                 />
+                </div>
                 <span
                   class="font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] opacity-[70%] mt-[32px] block"
                   >27 Jan 2021</span
@@ -310,16 +322,17 @@
                 >
                 <a
                   href="#"
-                  class="block w-fit h-[28px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] mt-[24px]"
+                  class="block w-fit h-[28px] font-[reg] font-[500] text-[16px] leading-[28px] text-[#282938] mt-[24px] a-hover"
                 >
                   <h2 class="inline-block">Read More</h2>
                   <img
-                    class="w-[24px] h-fit inline-block"
+                    class="w-[24px] h-fit inline-block specail-hover duration-200"
                     src="public/images/sec-7/arrow-5.svg"
                     alt=""
                   />
                 </a>
               </div>
+
 
             </div>
           </div>
